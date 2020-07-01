@@ -1,0 +1,149 @@
+/* Font, Background and Block*/
+.body{
+    background-image: url(https://i.ibb.co/MPkn2sb/IMG-7010.jpg);
+    background-color: rgb(24, 29, 34);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10pt;
+}
+.body2{
+    background-image: url(https://i.ibb.co/0CW29sm/IMG-7025.jpg);
+    background-color: rgb(24, 29, 34);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10pt;
+}
+.body3{
+    background-image: url(https://i.ibb.co/M61fGVC/IMG-6885.jpg);
+    background-color: rgb(24, 29, 34);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 10pt; 
+}
+/* Fixed/sticky icon bar */
+.icon-bar {
+    position: fixed;
+    right: 20pt;
+    top:25%;
+    width: 3%;
+    background-color: rgba(24, 29, 34, 0.7)
+}
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+}
+.icon-bar a:hover {
+    background-color: aliceblue;
+}
+
+.soc img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 30px;
+}
+
+#bloc{
+    width: 55%;
+    margin: auto;
+    border: 1px whitesmoke inset;
+    padding: 20px;
+    background-color: rgba(24, 29, 34, 0.7);
+    min-width: 800px;
+}
+  
+/*header*/
+#logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+#logo2 img{
+    display: block;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.menu{
+    position: fixed;
+    left: 20pt;
+    top:25%;
+    width: 12%;
+    background-color: rgba(24, 29, 34, 0.7)
+}
+.menu a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+.menu a:hover {
+    background-color: rgba(24, 29, 34, 1);
+  }
+/*Biography*/
+
+/*discography*/
+.disco{
+    display: inline;
+    margin-left: 18px;
+    width: 30%;
+
+}
+ /* contact form */
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  /* Submit Button */
+  input[type=submit] {
+    background-color: rgb(175, 112, 76);
+    color: whitesmoke;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: rgba(24, 29, 34, 1);
+  }
+  .container {
+    border-radius: 5px;
+    background-color: rgba(24, 29, 34, 1);
+    padding: 20px;
+  } 
+#footer{
+    position: absolute;
+    text-align: center;
+    position:absolute;
+    font-family: serif;
+    bottom:0;
+}
